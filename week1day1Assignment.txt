@@ -1,0 +1,42 @@
+Convert a negative number to positive number
+
+package week1.day1;
+
+public class Assignment1 {
+	
+
+	public static void main(String[] args) {
+		int num = -40;
+		int num1;
+		if (num < 0) {
+			num1 = num * -1;
+			System.out.println("The number " + num +" is converted to " + num1);
+		}
+
+	}
+
+}
+
+-----------------------------------------------------------------------------------------------------
+ Check if the number is positive or negative
+package week1.day1;
+
+public class Assignment1 {
+	
+
+	public static void main(String[] args) {
+		int num = 0;
+		int num1;
+		if (num < 0) {
+			System.out.println("The given number negative");
+		}
+		else if (num==0) {
+			System.out.println("The number is neither positive nor negative");
+			
+		}
+		else {
+			System.out.println(" the given numbe is positive ");
+		}
+		}
+
+	}
